@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Highcharts Example</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <div id="container" style="height: 400px"></div>
+    <script>
+        // Data for the chart
+        const data = [
+            { name: 'Sales', data: [120, 200, 180, 250, 300, 280, 400, 450, 500, 550, 600, 700] },
+            { name: 'Expenses', data: [100, 150, 130, 200, 250, 230, 300, 350, 400, 450, 500, 600] }
+        ];
+
+        // Create the chart
+        Highcharts.chart('container', {
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Sales vs. Expenses'
+            },
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            },
+            yAxis: {
+                title: {
+                    text: 'Amount'
+                }
+            },
+            series: data,
+        });
+    </script>
+</body>
+</html>

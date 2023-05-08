@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A web page about IoT Applications" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Saatvik" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car System Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="icon" href="mylogo.jpeg" />
+	<style>
+	body {
+		background-image: url("bg.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+}
+
+nav {
+	margin-top: 5px;
+    background-color: #171717;
+    overflow: hidden;
+	border: 1px dotted #cccccc;
+
+}
+
+
+#a1{
+	text-decoration: none;
+    padding: 10px;
+    text-align: center;
+	padding-right: 140px;
+    float: right;
+    color: white;
+}
+
+
+footer {
+        margin-top: 15%;
+        color: white;
+        background-color: #000;
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+.container {
+  margin: 0 auto;
+  margin-top: 280px;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  padding: 20px;
+  border: 2px solid #fa0000;
+}
+
+html {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: rgb(214, 38, 38);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  
+}
+
+.form-control {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: none;
+  background-color: #2980b9;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3498db;
+}
+
+
+
+	</style>
+  </head>
+  <body>
+
+	<nav>
+		
+		<a id="a1" href="carinfo.html">Cars List</a>
+	  </nav>
+		
+	  
+    <div class="container" id="login-form">
+      <h1 class="heading">Smart Car System Login</h1>
+      <form>
+        <div class="form-group">
+          <label for="car-name-input">User Name</label>
+          <input type="text" class="form-control" id="car-name-input" placeholder="Enter car name">
+        </div>
+        <div class="form-group">
+          <label for="password-input">Password</label>
+          <input type="password" class="form-control" id="password-input" placeholder="Enter password">
+        </div>
+        <button type="submit" class="btn btn-primary" id="login-button">Login</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+	<footer>	
+		<p>
+			&copy; Designed by
+			<b>Saatvik</b>
+		  </p>
+	</footer>
+  </body>
+</html>

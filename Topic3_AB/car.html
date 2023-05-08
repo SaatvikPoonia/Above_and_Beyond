@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Details</title>
+  <link rel="icon" href="mylogo.jpeg" />
+  <style>
+    h1{
+        margin-top: 30px;
+        text-align: center;
+    }
+    html {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    body{
+        background-image: linear-gradient(90deg, #fff5fd 30%, #fcfdef 70%);
+    }
+
+    #car-details,#log {
+        margin-left: 450px;
+    }
+
+    #car-photo,#log{
+        margin-top: 30px;
+    }
+
+    footer {
+        margin-top: 8%;
+        color: white;
+        background-color: #000000;
+        width: 100%;
+        height: 8vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+    
+    
+  </style>
+</head>
+<body>
+    
+  <h1>Car Details</h1>
+  <div id="car-details">
+    <img id="car-photo" src="" alt="Car Photo">
+    <p><strong>Car Name:</strong> <span id="car-name"></span></p>
+    <p><strong>Top Speed:</strong> <span id="speed"></span></p>
+    <p><strong>Fuel Capacity:</strong> <span id="oil"></span></p>
+    <p><strong>Power:</strong> <span id="color"></span></p>
+    <p><strong>Price:</strong> <span id="price"></span></p>
+  </div>
+  <button id="log">Log Out</button>
+  <script src="car.js"></script>
+
+  <footer>	
+    <p>
+        &copy; Designed by
+        <b>Saatvik</b>
+      </p>
+</footer>
+</body>
+</html>

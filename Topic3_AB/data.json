@@ -1,0 +1,48 @@
+[
+    {
+      "name": "tesla",
+      "password": "pass1",
+      "speed": "200 mph",
+      "oil": "90%",
+      "photo": "tesla1.jpg",
+      "color": "1000 bhp",
+      "price": "$150,000"
+    },
+    {
+      "name": "bmw",
+      "password": "pass2",
+      "speed": "180 mph",
+      "oil": "70%",
+      "photo": "bmw.jpg",
+      "color": "470 bhp",
+      "price": "$120,000"
+    },
+    {
+      "name": "mercedes",
+      "password": "pass3",
+      "speed": "160 mph",
+      "oil": "50%",
+      "photo": "mercedes1.jpg",
+      "color": "288 bhp",
+      "price": "$80,000"
+    },
+    {
+      "name": "toyota",
+      "password": "pass4",
+      "speed": "120 mph",
+      "oil": "30%",
+      "photo": "toyota1.jpg",
+      "color": "175 bhp",
+      "price": "$45,000"
+    },
+    {
+      "name": "kia",
+      "password": "pass5",
+      "speed": "135 mph",
+      "oil": "85%",
+      "photo": "kia1.jpg",
+      "color": "230 bhp",
+      "price": "$60,000"
+    }
+  ]
+  
